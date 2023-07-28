@@ -47,10 +47,10 @@
 					function populateHeader(jsonObj){
 					//Grab the compnay name
 					const headerH1 = document.createElement('h1');
-					headerH1.textContent = jsonObj['compnayName'];// jsonObj.companyName		
+					headerH1.textContent = jsonObj['companyName'];// jsonObj.companyName		
 					//Grab the compnay location and established date
 					const headerPara = document.createElement('p');
-					headerPara.textContent = 'Head Office: ' + jsonObj['headOffice'] + 'Established: ' + jsonObj['established'];
+					headerPara.textContent = 'Head Office: ' + jsonObj['headOffice'] + ' ' + 'Established: ' + jsonObj['established'];
 					header.appendChild(headerPara);			
 
 					}
