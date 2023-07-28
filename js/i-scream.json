@@ -36,6 +36,30 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Glorious French Vanilla",
+      "calories": 400,
+      "type": "ice cream",
+      "ingredients": [
+        "Coffee",
+        "Wild Berries",
+        "candy sprinkles"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Creamy Cookies and Cream",
+      "calories": 450,
+      "type": "ice cream",
+      "ingredients": [
+        "Double Fudge Cookies",
+        "100% Cream",
+        "Milky Chocolate Chip"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
+
+
   ]
 }
