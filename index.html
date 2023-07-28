@@ -10,18 +10,24 @@
 
 <body>
 	<!-- STEP 1: Build out a HEADER and a SECTION element -->
+	
+		<header>
 
-		<h1>Hello World</h1>
-		
-		<p>I'm hosted with Github Pages</p>
+		</header>
+
+		<section>
+
+		</section>
 	<script>
 		/* STEP 2: Bind the HEADER and the SECTION elements above to variables */
-
+			const header = document.querySelector('header');
+			const section = document.querySelector('section');
 		/* STEP 3: Store the URL of a JSON file in a variable */
-
+			const requestUrl = "https://ramongr721.github.io/COMP1073-JSON/js/i-scream.json";
 		/* STEP 4: Create a new XHR object */
-
+			 const request = new XMLHttpRequest();
 		/* STEP 5: Open a new request using the open() method */
+			requestUrl.open();
 
 		/* STEP 6: Set JavaScript to accept JSON from the server */
 
