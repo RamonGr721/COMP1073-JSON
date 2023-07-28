@@ -25,7 +25,7 @@
 		/* STEP 3: Store the URL of a JSON file in a variable */
 			const requestUrl = "https://ramongr721.github.io/COMP1073-JSON/js/i-scream.json";
 		/* STEP 4: Create a new XHR object */
-			 const request = new XMLHttpRequest();
+			 const request = new XMLHttpRequest(); //asycronous methods
 		/* STEP 5: Open a new request using the open() method */
 				request.open('GET',requestUrl);// needs two agruments
 			
@@ -34,6 +34,13 @@
 		/* STEP 7: Send the request with the send() method */
 						request.send();
 		/* STEP 8: Add an event handler that listens for the onload event of the JSON file/object */
+				request.onload = function()
+				{	
+					const iScreamInc = request.response;
+					console.log(iScreamInc);
+					populateHeader(iScreamInc);
+					topFlavours(iScreamInc);
+				}
 
 		/* STEP 9: Build out the populateHeader() function */
 
