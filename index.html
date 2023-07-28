@@ -48,7 +48,7 @@
 					//Grab the company name
 					const headerH1 = document.createElement('h1');
 					headerH1.textContent = jsonObj['companyName'];// jsonObj.companyName
-					headerPara.appendChild(headerH1);		
+					header.appendChild(headerH1);		
 					//Grab the company location and established date
 					const headerPara = document.createElement('p');
 					headerPara.textContent = 'Head Office: ' + jsonObj['headOffice'] + ' ' + 'Established: ' + jsonObj['established'];
