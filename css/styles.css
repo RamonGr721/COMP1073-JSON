@@ -28,8 +28,7 @@ header p {
 /* section styles */
 section {
 	display: grid;
-	grid-template-rows: 100%;
-	grid-template-columns: auto;
+	grid-template-columns: 50%;
 	justify-content: space-evenly;
 	margin-bottom: 5rem;
 }
