@@ -28,8 +28,7 @@ header p {
 /* section styles */
 section {
 	display: grid;
-	grid-template-columns: 100%;
-	justify-content: center;
+	justify-content: space-between;
 	margin-bottom: 5rem;
 }
 section article {
