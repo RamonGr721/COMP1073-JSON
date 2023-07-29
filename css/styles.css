@@ -41,6 +41,7 @@ article img {
 	display: block;
 	height: 150px;
 	width: 90px;
+	padding-left: 2%;
 }
 section p {
   margin: 5px 0;
